@@ -39,4 +39,4 @@ Por fim, podemos rodar o código do agente:
 uv run python main.py
 ```
 
-E para interagir com o agente via chat basta acessar o [link](os.agno.com).
+E para interagir com o agente via chat basta acessar o [link](https://os.agno.com).
