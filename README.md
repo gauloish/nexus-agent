@@ -28,7 +28,7 @@ docker pull qdrant/qdrant
 E então precisamos executar nosso banco de dados vetorial localmente na porta 6333:
 
 ```bash
-docker run -p 6333:6333 -p 6334:6334 \
+sudo docker run -p 6333:6333 -p 6334:6334 \
     -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
     qdrant/qdrant
 ```
