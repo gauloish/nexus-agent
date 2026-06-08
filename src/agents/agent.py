@@ -22,7 +22,7 @@ def agent() -> Agent:
     """
 
     credentials_path = PROJECT_ROOT / "credentials.json"
-    files_path = PROJECT_ROOT / "resource/files.json"
+    files_path = PROJECT_ROOT / "resource/files_test.json"
 
     credentials = service_account.Credentials.from_service_account_file(
         filename=credentials_path,
