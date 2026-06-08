@@ -8,7 +8,6 @@ def extract_files(files_path):
 
     with open(files_path, "r", encoding="utf-8") as file:
         data = json.load(file)
-        print(data)
     
     return data
 
